@@ -1,8 +1,8 @@
-(ns my-website.views.users
+(ns nasclojures.views.users
   (:use [noir.core]
         hiccup.core hiccup.form)
-  (:require [my-website.views.common :as common]
-            [my-website.models.db :as db]
+  (:require [nasclojures.views.common :as common]
+            [nasclojures.models.db :as db]
             [noir.util.crypt :as crypt]
             [noir.session :as session]
             [noir.response :as resp]))

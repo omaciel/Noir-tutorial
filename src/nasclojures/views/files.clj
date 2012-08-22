@@ -1,12 +1,12 @@
-(ns my-website.views.files
+(ns nasclojures.views.files
   (:use hiccup.util
         noir.core
         hiccup.core
         hiccup.page
         hiccup.form
         hiccup.element)
-  (:require [my-website.views.common :as common]
-            [my-website.models.db :as db]
+  (:require [nasclojures.views.common :as common]
+            [nasclojures.models.db :as db]
             [noir.response :as resp]))
 
 (defn list-files []

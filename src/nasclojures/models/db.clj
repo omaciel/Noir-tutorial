@@ -1,4 +1,4 @@
-(ns my-website.models.db
+(ns nasclojures.models.db
   (:require [clojure.java.jdbc :as sql]
             [clojure.string :as string]
             [clojure.java.io :as io]))

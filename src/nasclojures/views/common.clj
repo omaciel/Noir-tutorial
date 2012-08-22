@@ -1,4 +1,4 @@
-(ns my-website.views.common
+(ns nasclojures.views.common
   (:use [noir.core :only [defpartial]]
         hiccup.element 
         hiccup.form
@@ -14,7 +14,7 @@
 (defpartial layout [& content]
             (html5
               [:head
-               [:title "my-website"]
+               [:title "nasclojures"]
                (include-css "/css/reset.css")]
               [:body               
                (if-let [user (session/get :user)]

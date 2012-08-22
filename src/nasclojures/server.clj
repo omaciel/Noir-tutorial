@@ -1,4 +1,4 @@
-(ns my-website.server
+(ns nasclojures.server
   (:require [noir.server :as server])
   (:gen-class))
 
@@ -8,5 +8,5 @@
   (let [mode (keyword (or (first m) :dev))
         port (Integer. (get (System/getenv) "PORT" "8080"))]
     (server/start port {:mode mode
-                        :ns 'my-website})))
+                        :ns 'nasclojures})))
 

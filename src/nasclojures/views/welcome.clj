@@ -1,5 +1,5 @@
-(ns my-website.views.welcome
-  (:require [my-website.views.common :as common])
+(ns nasclojures.views.welcome
+  (:require [nasclojures.views.common :as common])
   (:use [noir.core :only [defpage]]
         hiccup.core hiccup.form))
 
